@@ -16,6 +16,7 @@ body {
   background-color: #fff;
   border-radius: 10px;
   width: 50vw;
+  border: 2px solid;
   border-radius: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -24,9 +25,11 @@ body {
 .first-container {
   background-color: purple;
   color: white;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   display: flex;
+  /*   justify-content: center; */
   align-items: center;
   overflow: hidden;
   padding: 4rem 0rem;
@@ -76,9 +79,4 @@ h1 {
 
 .day, .time {
   font-size: 1.5rem;
-}
-a{
-  text-decoration: underline;
-  color: purple;
-  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
