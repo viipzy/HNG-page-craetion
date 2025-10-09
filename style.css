@@ -1,0 +1,84 @@
+body {
+  font-family: "montserrat", sans-serif;
+  background-color: #f4f4f4;
+  margin: auto;
+  padding: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 50vw;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.first-container {
+  background-color: purple;
+  color: white;
+  object-fit: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 4rem 0rem;
+}
+
+.profile-picture {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background: url("GOMBI.png") no-repeat center center/cover;
+  margin: 0 0 0 4rem;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+h1 {
+  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
+}
+
+.role {
+  font-size: 1.5rem;
+  margin: 0 0 0 0;
+}
+
+.second-container {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+.time-container {
+  margin: 5rem;
+  border: purple solid 2px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.day, .time {
+  font-size: 1.5rem;
+}
+a{
+  text-decoration: underline;
+  color: purple;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
